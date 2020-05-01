@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node-localstorage": "^2.1.6",
+    "openweather-apis": "^4.2.0",
+    "random-animals-api": "^1.2.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "underscore": "^1.10.2"
   },
   "scripts": {
     "dev": "BROWSER=none react-scripts start",

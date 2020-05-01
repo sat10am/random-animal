@@ -1,5 +1,7 @@
 module.exports = (req, res) => {
-  res.status(200).json({
-    date: now(),
-  });
+  const {
+    query: { name },
+  } = req;
+
+  res.send(`Hello ${name}!`);
 };
